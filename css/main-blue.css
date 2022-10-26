@@ -2442,8 +2442,12 @@ header {
   display: inline-block; }
 
 .b-header-r {
-  padding-top: 14px; }
-  @media screen and (min-width: 1025px) {
+  padding-top: 14px;
+  border: 1px solid;
+  width: 1270px;
+  margin: 0;
+   }
+@media screen and (min-width: 1025px) {
     .b-header-r.b-header-r--icon {
       padding-right: 54px; } }
 
@@ -2909,7 +2913,7 @@ footer {
   margin: 0 23px 0 0;
   padding: 0;
   margin-bottom: 11px; }
-  .b-top-nav__1level_wrap:after {
+.b-top-nav__1level_wrap:after {
     visibility: hidden;
     display: block;
     font-size: 0;
@@ -2921,19 +2925,19 @@ footer {
   float: left;
   list-style: none;
   position: relative; }
-  .b-top-nav__1level > a {
+.b-top-nav__1level > a {
     padding: 6px 19px;
     white-space: nowrap;
     float: left; }
-    @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
       .b-top-nav__1level > a {
         float: none; } }
-  .b-top-nav__1level.is-active-top-nav__1level {
+.b-top-nav__1level.is-active-top-nav__1level {
     -moz-border-radius: 13px;
     -webkit-border-radius: 13px;
     border-radius: 13px;
     background: #4496d2; }
-  @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .b-top-nav__1level .b-ico-dropdown {
       font-size: 1.15385em;
       line-height: 1.2;
@@ -2966,7 +2970,7 @@ header.animated .b-ico-dropdown {
 .f-top-nav a {
   font-size: 1.07692em;
   line-height: 1;
-  text-decoration: none; }
+  text-decoration: none;border: }
 .f-top-nav .is-active-top-nav__1level > a, .f-top-nav .is-active-top-nav__1level > span {
   color: white; }
 
@@ -2999,7 +3003,7 @@ header.animated .b-ico-dropdown {
     .b-top-nav-dropdown .b-ico-dropdown i {
       display: inline; }
   .b-top-nav-dropdown .b-top-nav__1level_wrap {
-    margin-right: 0; }
+    margin: 0 auto; }
   .b-top-nav-dropdown .b-top-nav__1level {
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
@@ -3011,7 +3015,7 @@ header.animated .b-ico-dropdown {
     padding: 0; }
     .b-top-nav-dropdown .b-top-nav__1level > a {
       display: block;
-      padding: 20px 20px 20px 20px; }
+      padding: 20px ; }
   .b-top-nav-dropdown .is-active-top-nav__1level {
     background: none; }
   .b-top-nav-dropdown .is-active-top-nav__dropdown {
@@ -3037,7 +3041,7 @@ header.animated .b-ico-dropdown {
 .b-top-nav__dropdomn {
   display: none;
   padding-left: 20px; }
-  @media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
     .b-top-nav__dropdomn {
       opacity: 0;
       position: absolute;
@@ -3178,9 +3182,9 @@ header.animated .b-ico-dropdown {
 
 .b-top-nav--bottom {
   float: left; }
-  .b-top-nav--bottom .b-top-nav__1level_wrap {
+.b-top-nav--bottom .b-top-nav__1level_wrap {
     margin: 0; }
-  @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .b-top-nav--bottom {
       float: none; } }
 
