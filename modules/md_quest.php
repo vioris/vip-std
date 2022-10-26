@@ -136,17 +136,17 @@
                                         </div>
                                         <aside class="col-md-3">
                                             <div>
-                                                <h4 class="f-primary-b b-h4-special f-h4-special c-primary">search</h4>
+                                                <h4 class="f-primary-b b-h4-special f-h4-special c-primary">искать</h4>
                                                 <div class="b-form-row b-input-search">
                                                     <input class="form-control" type="text" placeholder="Enter your keywords"/>
                                                     <span class="b-btn b-btn-search f-btn-search fa fa-search"></span>
                                                 </div>
                                             </div>
                                             <div class="b-categories-filter b-default-top-indent">
-                                                <h4 class="f-primary-b b-h4-special f-h4-special c-primary">knowledge base</h4>
+                                                <h4 class="f-primary-b b-h4-special f-h4-special c-primary">нужные ссылки</h4>
                                                 <ul>
                                                     <li>
-                                                        <a class="f-categories-filter_name" href="#"><i class="fa fa-plus"></i> Web Design</a>
+                                                        <a class="f-categories-filter_name" href="#"><i class="fa fa-plus"></i> веб дизайн</a>
                                                         <span class="b-categories-filter_count f-categories-filter_count">12</span>
                                                     </li>
                                                     <li>
@@ -180,7 +180,7 @@
                                                 </ul>
                                             </div>
                                             <div class="b-default-top-indent">
-                                                <h4 class="f-primary-b b-h4-special f-h4-special c-primary">submit your questions</h4>
+                                                <h4 class="f-primary-b b-h4-special f-h4-special c-primary">отправить вопрос</h4>
                                                 <div class="b-form-row">
                                                     <input type="text" class="form-control" placeholder="Your email"/>
                                                 </div>
@@ -191,8 +191,7 @@
                                                     <textarea class="form-control" placeholder="Your questions" rows="5"></textarea>
                                                 </div>
                                                 <div class="b-form-row">
-                                                    <a href="#" class="b-btn f-btn b-btn-md b-btn-default f-primary-b b-btn__w100">submit
-                                                    questions</a>
+                                                    <button href="#" class="b-btn f-btn b-btn-md b-btn-default f-primary-b b-btn__w100">отправить</botton>
                                                 </div>
                                             </div>
                                         </aside>

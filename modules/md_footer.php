@@ -42,36 +42,7 @@
           </a>
         </div>
       </div>
-    </div>
-    <!--  <div class="col-md-3 col-sm-12 col-xs-12">
-      <h4 class="f-primary-b">Последние статьи</h4>
-      <div class="b-blog-short-post row">
-        <div class="b-blog-short-post__item col-md-12 col-sm-4 col-xs-12 f-primary-b">
-          <div class="b-blog-short-post__item_text f-blog-short-post__item_text">
-            <a href="blog_detail_left_slidebar.html">Amazing post with all the goodies</a>
-          </div>
-          <div class="b-blog-short-post__item_date f-blog-short-post__item_date">
-            March 23, 2022
-          </div>
-        </div>
-        <div class="b-blog-short-post__item col-md-12 col-sm-4 col-xs-12 f-primary-b">
-          <div class="b-blog-short-post__item_text f-blog-short-post__item_text">
-            <a href="blog_detail_left_slidebar.html">Amazing post with all the goodies</a>
-          </div>
-          <div class="b-blog-short-post__item_date f-blog-short-post__item_date">
-            March 23, 2022
-          </div>
-        </div>
-        <div class="b-blog-short-post__item col-md-12 col-sm-4 col-xs-12 f-primary-b">
-          <div class="b-blog-short-post__item_text f-blog-short-post__item_text">
-            <a href="blog_detail_left_slidebar.html">Amazing post with all the goodies</a>
-          </div>
-          <div class="b-blog-short-post__item_date f-blog-short-post__item_date">
-            March 23, 2022
-          </div>
-        </div>
-      </div>
-    </div> -->
+    </div>  
     <div class="col-md-3 col-sm-12 col-xs-12">
       <h4 class="f-primary-b" style="color:#3B3C36;">контакт инфо</h4>
       <div class="b-contacts-short-item-group">
@@ -98,12 +69,12 @@
             <i class="fa fa-envelope"></i>
           </div>
           <div class="b-remaining f-contacts-short-item__text f-contacts-short-item__text_email">
-            <a href="mailto:frexystudio@gmail.com">info@vip-std.site</a>
+            <a href="mailto:frexystudio@gmail.com">info@vipstdsi</a>
           </div>
         </div>
       </div>
     </div>
-    <form class="col-xs-12 col-sm-6" method = 'post' >
+    <form class="col-xs-12 col-sm-6" method = "post" action="#" >
       <h4 class="f-primary-b text-center" style="color:#3B3C36;">Напишите нам</h4>
       <div class="b-form-row">Quisque at tortor a libero posuere laoreet vitae sed arcu nunc
       </div>
@@ -122,10 +93,10 @@
         </div>
         <div class="col-sm-6">
           <div class="b-form-row">
-            <textarea class="form-control" placeholder="Your message" rows="6"></textarea>
+            <textarea class="form-control" placeholder="Your message" rows="4"></textarea>
           </div>
           <div class="b-form-row">
-            <a href="#" class="b-btn f-btn b-btn-md b-btn-default f-primary-b b-btn__w100">отправить сообщение</a>
+            <button  class="b-btn f-btn b-btn-md b-btn-default f-primary-b b-btn__w100">отправить сообщение</button>
           </div>
         </div>
       </div>

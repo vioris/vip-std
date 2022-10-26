@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row b-col-default-indent">
             <div class="col-md-8 col-md-offset-2">
-                <h2 class="f-primary-l f-center c-default" style="margin-top:30px;">our pricing table</h2>
+                <h2 class="f-primary-l f-center c-default" style="margin-top:30px;">Наша таблица цен</h2>
                 <p class="f-primary-l f-center">Quisque at tortor a libero posuere laoreet vitae sed arcu. Curabitur consequat nunc at augue tincidunt vehicula. Donec viverra semper arcu ut blandit. Suspendisse ac tempus diam. Duis dignissim lacinia sapien in tempor.</p>
             </div>
         </div>

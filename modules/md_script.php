@@ -53,8 +53,8 @@
 <!-- end Progress -->
 
 <!-- Google services -->
-<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>
-<script src="../js/google-chart.js"></script>
+<!-- <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>
+<script src="../js/google-chart.js"></script> -->
 <!-- end Google services -->
 <script src="../js/j.placeholder.js"></script>
 
@@ -71,3 +71,4 @@
 <script src="../js/loader.js"></script>
 <script src="../js/scrollIt/scrollIt.min.js"></script>
 <script src="../js/modules/navigation-slide.js"></script>
+ 

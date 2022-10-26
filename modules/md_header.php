@@ -12,7 +12,7 @@
           </div>
       </div>
       <div class="container b-header__box b-relative">
-          <a href="/" class="b-left b-logo"><img class="color-theme" data-retina src="img/logo-footer-default.png" alt="Logo" /></a>
+          <a href="/" class="b-left b-logo"><img class="color-theme" data-retina src="../img/logo-footer-default.png" alt="Logo" /></a>
           <div class="b-header-r b-right">
               <div class="b-top-nav-show-slide f-top-nav-show-slide b-right j-top-nav-show-slide"><i class="fa fa-align-justify"></i></div>
                    <?php include __DIR__ . '/md_nav.php' ;?>         

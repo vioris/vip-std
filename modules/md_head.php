@@ -35,6 +35,7 @@
 <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
 <link type="text/css" data-themecolor="default" rel='stylesheet' href="../css/main-red.css">
+<link type="text/css" data-themecolor="default" rel='stylesheet' href="../custom.css">
 
 <link type="text/css" rel='stylesheet' href="../js/rs-plugin/css/settings.css">
 <link type="text/css" rel='stylesheet' href="../js/rs-plugin/css/settings-custom.css">
