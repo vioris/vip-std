@@ -1,21 +1,21 @@
-<?php include '../config.php';?>
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>О нас | Веб разработка</title>
-        <?php include '../modules/md_head.php' ; ?>
+        <?php include 'modules/md_head.php' ; ?>
     </head>
     <body>
         
-        <header class="b-header--bottom-menu">
-            <?php include '../modules/md_header.php';?>
+        <header >
+            <?php include 'modules/md_header.php';?>
         </header>
         <div class="j-menu-container"></div>
         <div class="b-inner-page-header f-inner-page-header b-bg-header-inner-page">
             <div class="b-inner-page-header__content">
                 <div class="container">
-                    <h1 class="f-primary-l c-default"  style="color:#fff;">Немног о нас</h1>
+                    <h1 class="f-primary-l c-default"  style="color:#fff;">Немного о нас</h1>
                 </div>
             </div>
         </div>
@@ -48,18 +48,23 @@
                         </div>
                         <div class="col-md-6 col-xs-12">
                             <h3 class="f-primary-l c-default">Добро пожаловать на наш сайт</h3>
-                            <p class="f-primary-l">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor ligula sit amet ante facilisis, id rutrum est varius. Quisque facilisis lorem vitae lacus volutpat porttitor condimentum vitae est. Mauris gravida quam dui, ac aliquet quam rhoncus et. Donec in mi eget libero aliquet bibendum. </p>
-                            <ul class="c-primary c--inherit b-list-markers f-list-markers b-list-markers--without-leftindent f-list-markers--medium c-primary--all f-color-primary b-list-markers-2col f-list-markers-2col">
-                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Веб и графический дизайн</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Разработка веб сайтов</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Адаптация к мобильным устройствам</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Разработка веб приложений</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Интеграция с CMS системами</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Разработка ботов для социальных сетей</a></li>
+                            <p class="f-primary-l">Решаем задачи вашего бизнеса, используя передовые интернет-технологии. 
+                            Компания Viktor P. studio основана в августе 2018 года.                       
+                            Мы применяем комплексный подход к решению задач клиента.
+                             Соблюдение общепринятых правил и внедрение собственных 
+                            стандартов позволяет нам поддерживать качество работы на высоком уровне.
+                                </p>
+                               <ul class="c-primary c--inherit b-list-markers f-list-markers b-list-markers--without-leftindent f-list-markers--medium c-primary--all f-color-primary b-list-markers-2col f-list-markers-2col">
+                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Доработка сайтов</a></li>
+                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Интернет-магазины</a></li>
+                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Корпоративные сайты</a></li>
+                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Лендинг</a></li>
+                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Сайты-визитки</a></li>
+                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Техническое задание </a></li>
                                 <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Создание баз данных и их анализ</a></li>
                                 <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Подключение платежных систем</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> СЕО продвижение сайтов</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Создание голосового помошника</a></li>
+                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> Продвижение в Яндекс и Google</a></li>
+                                <li><a href="#"><i class="fa fa-check-circle-o b-list-markers__ico f-list-markers__ico"></i> SEO-оптимизация</a></li>
                             </ul>
                             <div class="b-btn-container">
                                 <a href="about_us_meet_our_team_detail.html" class="b-btn f-btn b-btn-md f-btn-md b-btn-default f-primary-b button-blue-light">Получить консультацию</a>
@@ -86,8 +91,16 @@
                             <div class="col-md-9 col-sm-8 b-tabs-vertical__content">
                                 <div id="tabs-1">
                                     <div class="b-tabs-vertical__content-text">
-                                        <h3 class="f-tabs-vertical__title f-primary-b">Что говорят клиенты?</h3>
-                                        <p>Quisque at tortor a libero posuere laoreet vitae sed arcu. Curabitur consequat nunc at augue tincidunt vehicula.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod purus eu sapien faucibus, quis porta ipsum accumsan. Pellentesque gravida mauris ac aliquam consequat. Vivamus accumsan mi a metus euismod vulputate. Ut imperdiet, nunc suscipit volutpat feugiat, quam odio luctus dolor, condimentum faucibus velit tellus nec risus. Nam auctor tellus ut lorem ultricies, vitae commodo eros pretium. Curabitur facilisis bibendum enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum eget nisi viverra, adipiscing purus a, placerat erat. Praesent hendrerit, tellus id dapibus porta, ante velit fringilla mi, eget pellentesque nulla mauris interdum mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec elementum nisl convallis tincidunt ornare. In a interdum orci. Fusce id nibh cursus, pulvinar mi ac, auctor ipsum. In hac habitasse platea dictumst. Curabitur porttitor suscipit mi, ac cursus mauris egestas at. Nulla leo mi, placerat non rutrum nec, consequat eget metus. </p>
+                                        <h3 class="f-tabs-vertical__title f-primary-b">О нас.</h3>
+                                        <p> Веб-студия Viktor P. studio занимается созданием сайтов, доработкой, обслуживанием и технической поддержкой сайтов с 2018 года и за это время реализовала не один десяток успешных проектов.
+                                        Для разработки сайтов мы используем современный дизайн, 
+                                        адаптивную вёрстку, удобные системы управления сайтом (CMS).
+                                         Мы оказываем полный спектр услуг по созданию, продвижению и технической поддержке сайтов .
+
+                                         Опытная команда Viktor P. Studio будет с 
+                                         Вами на всех этапах создания сайта: от
+                                          его идеи до монетизации, включающих в себя проектирование, 
+                                         дизайн, разработку, наполнение, продвижение и рекламу, а также дальнейшую техническую поддержку проекта. </p>
                                     </div>
                                 </div>
                                 <div id="tabs-2">
@@ -268,8 +281,8 @@
             </section>
         </div>
         <footer>
-            <?php include '../modules/md_footer.php' ?>
+            <?php include 'modules/md_footer.php' ?>
         </footer>
-        <?php include '../modules/md_script.php'; ?>
+        <?php include 'modules/md_script.php'; ?>
     </body>
 </html>

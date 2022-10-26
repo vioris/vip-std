@@ -33,7 +33,7 @@
       </div>
        
       <section class="b-portfolio-slider-box container">
-        <?php foreach ($row as $key => $value) { ?>   
+        
         <div class="f-carousel-secondary b-portfolio__example-box f-some-examples-tertiary b-carousel-reset b-carousel-arr-square b-carousel-arr-square--big f-carousel-arr-square">
          <!--  <div class="b-carousel-title f-carousel-title f-carousel-title__color f-primary-b b-diagonal-line-bg-light">
             Lorem ipsum dolor sit amet conse
@@ -112,8 +112,7 @@
             </div>
           </div>
         </div>
-         <?php break; };?>
-
+        
       </section>
    
       <section class="container">
